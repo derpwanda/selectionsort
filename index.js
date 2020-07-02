@@ -10,11 +10,11 @@ function selectionsort(arr){
             }
         }
         // SWAP
-        // if (min !== i){
+        if (min !== i){
             let temp = arr[i]
             arr[i] = arr[min]
             arr[min] = temp
-        // }
+        }
     }
     return arr
 }
